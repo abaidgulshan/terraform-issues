@@ -1,4 +1,4 @@
-# Terraform Issues and Troubleshooting
+# ⚔️ Terraform Issues and Troubleshooting 💡
 
 ## Error with passing Subnet ID/IDS 
 * 🤔  Try to pass Subnet ID to from module ID
