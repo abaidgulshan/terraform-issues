@@ -39,3 +39,8 @@
   }
   ```
 * 🙌🏼 **reference**: [https://stackoverflow.com/questions/60213404/error-with-subnet-id-while-creating-ec2-instaces-with-module](https://stackoverflow.com/questions/75690181/how-to-get-all-cidrs-of-a-existing-vpc-and-add-them-to-security-group-as-inboun)https://stackoverflow.com/questions/75690181/how-to-get-all-cidrs-of-a-existing-vpc-and-add-them-to-security-group-as-inboun
+
+## Terraform Import successful but state file not updated
+* 🤔  Try to import some AWS resources on terraform 
+* ❌ **error**: But it show import is successful but the terraform plan and terraform state file not showing resources
+* 🎯 **solution**: if you are using manual import command for terraform import make sure **not** to use terraform version **1.5** use any <1.5 version
