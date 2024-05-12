@@ -69,3 +69,16 @@
 ```
 
 * 🙌🏼 **reference**: https://github.com/fleetdm/fleet/blob/d50ee081f20366740acd21fa23a77edb6c1f1518/terraform/byo-vpc/example/main.tf#L119
+
+## Terraform plan error loading state: 2 problems:
+* 🤔  Try to run terraform plan 
+* ❌ **error**: 
+```
+      Error: error loading state: 2 problems:
+      │ 
+      │ - unsupported checkable object kind "var"
+      │ - unsupported checkable object kind "var"
+          
+```
+* 🎯 **solution**: Upgrade terraform version `1.6` I was using 1.5
+* 🙌🏼 **reference**: https://discuss.hashicorp.com/t/failed-to-load-state-unsupported-checkable-object-kind-var/61844/2
